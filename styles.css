@@ -112,13 +112,13 @@ p {
 }
 .filter-btn {
 	background: transparent;
-	font-size: .8rem;
+	font-size: .9rem;
 	border: #c59d5f solid 1px;
 	text-transform: capitalize;
 	margin: 0 0.2rem;
 	letter-spacing: 1px;
 	border-radius: .5rem;
-	padding: 0.375rem 0.6rem;
+	padding: 0.375rem 0.7rem;
 	color: #c59d5f;
 	cursor: pointer;
 	transition: all .3s linear;
