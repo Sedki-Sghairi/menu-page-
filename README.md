@@ -1,2 +1,3 @@
 # menu-page-
-Dynamic menu for a restaurant 
+Dynamic menu-page for a restaurant 
+https://sedki-sghairi.github.io/menu-page-/
