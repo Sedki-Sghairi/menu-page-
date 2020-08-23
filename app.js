@@ -255,9 +255,3 @@ questions.forEach((question) => {
 		question.classList.toggle('show-text');
 	});
 });
-
-const videoElement = document.getElementById('video-container');
-
-videoElement.addEventListener('suspend', () => {
-	videoElement.play();
-});
