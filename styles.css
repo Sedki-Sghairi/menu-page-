@@ -14,6 +14,61 @@ body {
 	line-height: 1.5;
 	font-size: 0.875rem;
 }
+
+.first-header {
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+	z-index: -2;
+}
+#descriptive {
+	text-align: center;
+	font-size: 2.7rem;
+	position: relative;
+	top: 5rem;
+	color: #c59d5f;
+	font-family: "Great Vibes", cursive;
+}
+#descriptive::after {
+	display: block;
+	content: "Our mission is to simply make you feel home.";
+	font-size: .7rem;
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+}
+
+#descriptive::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4rem;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: -1;
+}
+@media screen and (min-width: 800px) {
+	#descriptive {
+		font-size: 2.9rem;
+	}
+	#descriptive::before {
+		height: 5rem;
+	}
+	#descriptive::after {
+		font-size: .9rem;
+	}
+}
+
 .customersFAQ {
 	width: 100%;
 	min-height: 100vh;
