@@ -255,3 +255,4 @@ questions.forEach((question) => {
 		question.classList.toggle('show-text');
 	});
 });
+document.getElementById('video-container').play();
